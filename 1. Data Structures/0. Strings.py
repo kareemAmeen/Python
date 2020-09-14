@@ -13,3 +13,18 @@ print(letter)
 x = 3
 w = fruit[x-1]
 print(w)
+print("              ")
+#----String functions------#
+#get a length of a string
+fruit="banana"
+x = len (fruit)
+print(x)
+
+#loop through a string
+print("              ")
+print("loop through a string")
+print("              ")
+
+fruit="banana"
+for letter in fruit:
+    print(letter)
