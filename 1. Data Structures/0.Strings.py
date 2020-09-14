@@ -28,3 +28,28 @@ print("              ")
 fruit="banana"
 for letter in fruit:
     print(letter)
+
+#how many letter "a" is in a word
+print("              ")
+print("counting letter a")
+print("              ")
+
+fruit="banana"
+count = 0
+for letter in fruit:
+    if letter == "a":
+        count = count + 1
+        print(count)
+print("Number of a's = ", count)
+
+#slicing Strings (to grap a piece of the string)
+print("              ")
+print("Slicing a string")
+print("              ")
+s = "Monty Python"
+print (s[0:4]) #note that this will not include 4, it is up to but not include
+print (s[6:7],".")
+print (s[6:20])
+print (s[:2]) #eliminates element 2 and all elements after that
+print (s[8:]) #eliminates all elements after the 8th element
+print (s[:]) #prints the entire string
