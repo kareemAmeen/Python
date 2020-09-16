@@ -22,3 +22,6 @@ print (t)
 
 position = fruit.find("ree")
 print(position)
+
+r = fruit.replace("ree" , "nnn")
+print (r)
