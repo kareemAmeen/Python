@@ -1,5 +1,6 @@
 #using "in" as a logical condition
 #---------------------------------
+import sys
 fruit="banana"
 x="n" in fruit #asking if letter "n" is in the work banana
 print(x)
@@ -56,4 +57,7 @@ data = "From kareem.aameen@gmail.com Sat Jan 5 09:14:16 2008"
 #find where the "@" is in data
 atpos = data.find("@")
 #find where a space comes after the first @
-sppos = data.
+sppos = data.find(" ",atpos)
+#slice the host name
+host = data[atpos+1 : sppos]
+print(host)
